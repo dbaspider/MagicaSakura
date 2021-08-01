@@ -23,6 +23,9 @@ android {
             consumerProguardFiles 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 def siteUrl = "https://github.com/Bilibili/MagicaSakura"
